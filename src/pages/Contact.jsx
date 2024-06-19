@@ -1,18 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const Index = () => {
+const Contact = () => {
   return (
     <div className="h-screen w-screen flex items-center justify-center">
       <Card className="w-96">
         <CardHeader>
-          <CardTitle>Welcome to the Transaction Management Tool</CardTitle>
+          <CardTitle>Contact Us</CardTitle>
         </CardHeader>
         <CardContent>
-          <p>This tool helps you manage your transactions efficiently.</p>
+          <p>Feel free to reach out to us for any queries.</p>
         </CardContent>
       </Card>
     </div>
   );
 };
 
-export default Index;
+export default Contact;
